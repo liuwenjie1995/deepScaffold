@@ -11,6 +11,9 @@
 * gunicorn 多进程部署
 
 ## introduce
+A.cli带命令行启动服务器，可灵活配置host， port
+B.BaseResful类，继承后实现post，put，get，delete，带swagger带测试用例
+
 
 --------------
 基于flask的快速部署脚手架，具体功能如下（更新中）

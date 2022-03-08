@@ -2,9 +2,10 @@ flask~=1.1.2
 flask-swagger
 flask-swagger-ui
 flask-bootstrap
-SQLAlchemy
+SQLAlchemy~=1.4.7
 pymysql
 pydantic
 requests
 loguru
 gunicorn
+click~=7.1.2
