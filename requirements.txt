@@ -1,0 +1,10 @@
+flask~=1.1.2
+flask-swagger
+flask-swagger-ui
+flask-bootstrap
+SQLAlchemy
+pymysql
+pydantic
+requests
+loguru
+gunicorn
