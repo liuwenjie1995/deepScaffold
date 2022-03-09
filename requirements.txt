@@ -1,6 +1,5 @@
 flask~=1.1.2
-flask-swagger
-flask-swagger-ui
+flask-restplus
 flask-bootstrap
 SQLAlchemy~=1.4.7
 pymysql
