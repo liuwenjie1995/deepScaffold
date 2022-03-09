@@ -19,5 +19,5 @@ class BaseRestful(Resource):
     def put(self):
         pass
 
-    def delete(cls):
+    def delete(self):
         pass

@@ -6,10 +6,17 @@ MODE = "dev"
 
 
 class BaseConfig:  # 基本配置类
+    ROOT_PATH = r'C:\\Users\\liu\\PycharmProjects\\deepScaffold'
+    LOG_INFO = "runtime"
+    LOG_PATH = os.path.join(ROOT_PATH, "docs", '{log_info}.log'.format(log_info=LOG_INFO))
     SECRET_KEY = os.getenv('SECRET_KEY', 'some secret words')
     ITEMS_PER_PAGE = 10
     LOGGER = logger
+    logger_format = "[{time}]|[{level}]<level>{message}</level>"
+    logger_level = "INFO"
     logger_compression = 'zip'
+    logger_rotation = "1 day"
+    logger_retention = '10 day'
 
 
 class DevelopmentConfig(BaseConfig):  # 开发环境

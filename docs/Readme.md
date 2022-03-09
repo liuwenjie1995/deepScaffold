@@ -13,6 +13,7 @@
 ## introduce
 A.cli带命令行启动服务器，可灵活配置host， port
 B.BaseResful类，继承后实现post，put，get，delete，带swagger带测试用例
+C.loguru config中配置
 
 
 --------------
@@ -27,8 +28,9 @@ B.BaseResful类，继承后实现post，put，get，delete，带swagger带测试
 
 --------------------
 需要实现内容：
-1. 研究需要的内容
+1. 
 
 ## todo 
 * 基础架构的编写
 * click使用命令行创建用户，开启服务
+* 自定义注解
