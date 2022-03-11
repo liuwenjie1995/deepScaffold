@@ -1,7 +1,3 @@
-import sys
-import os
-
-root_path = '../../docs'
 from configs.config import config, MODE
 
 

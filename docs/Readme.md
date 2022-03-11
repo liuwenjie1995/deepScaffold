@@ -11,10 +11,11 @@
 * gunicorn 多进程部署
 
 ## introduce
-A.cli带命令行启动服务器，可灵活配置host， port
-B.BaseResful类，继承后实现post，put，get，delete，带swagger带测试用例
-C.loguru config中配置
-
+* cli带命令行启动服务器，可灵活配置host， port
+* BaseResful类，继承后实现post，put，get，delete，带swagger带测试用例
+* loguru config中配置,支持可变级别，自定义日志
+* 中台只配置服务，不做具体路由分发，由router_view配置视图，router_rest配置接口
+* 
 
 --------------
 基于flask的快速部署脚手架，具体功能如下（更新中）
@@ -22,6 +23,7 @@ C.loguru config中配置
 1. sql连接模块，
 2. swagger接口识别模块
 3. logger日志模块
+1. flask_restplus进行restful接口开发
 
 
 ## v0.01 2022年3月8日
